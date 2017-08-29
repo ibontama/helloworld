@@ -1,0 +1,34 @@
+---
+title: "My Presentation"
+author: "Ibon Tamayo"
+date: "29 de agosto de 2017"
+output: ioslides_presentation
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## Introduction
+
+In this course I have learned some new ideas about R, Rstudio and Github. I will try to explain them with different examples. 
+
+## My aims
+
+- Create my presentation with Markdown
+- Try to upload the file to github
+
+
+## A summary of 
+
+```{r cars, echo = TRUE}
+library(psych)
+describe(mtcars)
+```
+
+## Slide with Plot
+
+```{r pressure}
+plot(mtcars$disp,mtcars$hp,col=mtcars$gear-2)
+```
+
